@@ -270,9 +270,9 @@ namespace ClassLogicaNegocios
                     listaProfp.Add(new Profesor
                     {
                         id_Profe = (short)datos[0],
-                        Nombre = (string)datos[1],
-                        App = (string)datos[2],
-                        Apm = (string)datos[3]
+                        Nombre = (string)datos[2],
+                        App = (string)datos[3],
+                        Apm = (string)datos[4]
                     }
                     );
                 }
