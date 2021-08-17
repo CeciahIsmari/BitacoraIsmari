@@ -34,6 +34,7 @@
         </div>
         <div style="margin-left:400px;">
             <asp:Button ID="btnReg" runat="server" Text="Registrar" class="btn btn-primary" OnClick="btnReg_Click"/>
+            <asp:Button ID="btnEdi" runat="server" Text="Editar" class="btn btn-primary" OnClick="btnEdi_Click"/>
         </div>
     </form>
 </body>
