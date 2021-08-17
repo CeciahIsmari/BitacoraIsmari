@@ -45,6 +45,7 @@
     <Compile Include="EstadoCivil.cs" />
     <Compile Include="GradoEspecialidad.cs" />
     <Compile Include="GrupoCuatrimestree.cs" />
+    <Compile Include="Materia.cs" />
     <Compile Include="PerfilProfe.cs" />
     <Compile Include="Profesor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

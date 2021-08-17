@@ -68,13 +68,21 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ActGradEsp.aspx" />
+    <Content Include="ActAPMC.aspx" />
+    <Content Include="ActGradEsp.aspx" />
+    <Content Include="ActPerProfe.aspx" />
     <Content Include="ActProfe.aspx" />
     <Content Include="css\sweetalert2.min.css" />
+    <Content Include="InsertAsigProMC.aspx" />
     <Content Include="InsertGradEsp.aspx" />
+    <Content Include="InsertPerProf.aspx" />
     <Content Include="InsertProfe.aspx" />
     <Content Include="js\JavaScript.js" />
     <Content Include="js\sweetalert2.all.min.js" />
     <Content Include="VistaGradoEsp.aspx" />
+    <Content Include="VistaAPMC.aspx" />
+    <Content Include="VistaGradoEsp.aspx" />
+    <Content Include="VistaPerfilProf.aspx" />
     <Content Include="VistaProfe.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -86,6 +94,27 @@
     <Compile Include="ActGradEsp.aspx.designer.cs">
       <DependentUpon>ActGradEsp.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ActAPMC.aspx.cs">
+      <DependentUpon>ActAPMC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ActAPMC.aspx.designer.cs">
+      <DependentUpon>ActAPMC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ActGradEsp.aspx.cs">
+      <DependentUpon>ActGradEsp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ActGradEsp.aspx.designer.cs">
+      <DependentUpon>ActGradEsp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ActPerProfe.aspx.cs">
+      <DependentUpon>ActPerProfe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ActPerProfe.aspx.designer.cs">
+      <DependentUpon>ActPerProfe.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ActProfe.aspx.cs">
       <DependentUpon>ActProfe.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -93,12 +122,26 @@
     <Compile Include="ActProfe.aspx.designer.cs">
       <DependentUpon>ActProfe.aspx</DependentUpon>
     </Compile>
+    <Compile Include="InsertAsigProMC.aspx.cs">
+      <DependentUpon>InsertAsigProMC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InsertAsigProMC.aspx.designer.cs">
+      <DependentUpon>InsertAsigProMC.aspx</DependentUpon>
+    </Compile>
     <Compile Include="InsertGradEsp.aspx.cs">
       <DependentUpon>InsertGradEsp.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="InsertGradEsp.aspx.designer.cs">
       <DependentUpon>InsertGradEsp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InsertPerProf.aspx.cs">
+      <DependentUpon>InsertPerProf.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InsertPerProf.aspx.designer.cs">
+      <DependentUpon>InsertPerProf.aspx</DependentUpon>
     </Compile>
     <Compile Include="InsertProfe.aspx.cs">
       <DependentUpon>InsertProfe.aspx</DependentUpon>
@@ -108,6 +151,27 @@
       <DependentUpon>InsertProfe.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VistaAPMC.aspx.cs">
+      <DependentUpon>VistaAPMC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VistaAPMC.aspx.designer.cs">
+      <DependentUpon>VistaAPMC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VistaGradoEsp.aspx.cs">
+      <DependentUpon>VistaGradoEsp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VistaGradoEsp.aspx.designer.cs">
+      <DependentUpon>VistaGradoEsp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VistaPerfilProf.aspx.cs">
+      <DependentUpon>VistaPerfilProf.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VistaPerfilProf.aspx.designer.cs">
+      <DependentUpon>VistaPerfilProf.aspx</DependentUpon>
+    </Compile>
     <Compile Include="VistaGradoEsp.aspx.cs">
       <DependentUpon>VistaGradoEsp.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
