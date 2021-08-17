@@ -1,0 +1,11 @@
+C:\Users\hjh\Documents\UNIVERSIDAD\9o Cuatri\web\Remedial_Pr2\Remedial_2\ClassLogicaNegocios\bin\Debug\ClassLogicaNegocios.dll
+C:\Users\hjh\Documents\UNIVERSIDAD\9o Cuatri\web\Remedial_Pr2\Remedial_2\ClassLogicaNegocios\bin\Debug\ClassLogicaNegocios.pdb
+C:\Users\hjh\Documents\UNIVERSIDAD\9o Cuatri\web\Remedial_Pr2\Remedial_2\ClassLogicaNegocios\bin\Debug\ClassAD.dll
+C:\Users\hjh\Documents\UNIVERSIDAD\9o Cuatri\web\Remedial_Pr2\Remedial_2\ClassLogicaNegocios\bin\Debug\ClassEntidades.dll
+C:\Users\hjh\Documents\UNIVERSIDAD\9o Cuatri\web\Remedial_Pr2\Remedial_2\ClassLogicaNegocios\bin\Debug\ClassAD.pdb
+C:\Users\hjh\Documents\UNIVERSIDAD\9o Cuatri\web\Remedial_Pr2\Remedial_2\ClassLogicaNegocios\bin\Debug\ClassEntidades.pdb
+C:\Users\hjh\Documents\UNIVERSIDAD\9o Cuatri\web\Remedial_Pr2\Remedial_2\ClassLogicaNegocios\obj\Debug\ClassLogicaNegocios.csprojAssemblyReference.cache
+C:\Users\hjh\Documents\UNIVERSIDAD\9o Cuatri\web\Remedial_Pr2\Remedial_2\ClassLogicaNegocios\obj\Debug\ClassLogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\hjh\Documents\UNIVERSIDAD\9o Cuatri\web\Remedial_Pr2\Remedial_2\ClassLogicaNegocios\obj\Debug\ClassLogicaNegocios.csproj.CopyComplete
+C:\Users\hjh\Documents\UNIVERSIDAD\9o Cuatri\web\Remedial_Pr2\Remedial_2\ClassLogicaNegocios\obj\Debug\ClassLogicaNegocios.dll
+C:\Users\hjh\Documents\UNIVERSIDAD\9o Cuatri\web\Remedial_Pr2\Remedial_2\ClassLogicaNegocios\obj\Debug\ClassLogicaNegocios.pdb

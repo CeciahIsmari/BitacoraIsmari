@@ -1,0 +1,6 @@
+C:\Users\hjh\Documents\UNIVERSIDAD\9o Cuatri\web\Remedial_Pr2\Remedial_2\ClassEntidades\bin\Debug\ClassEntidades.dll
+C:\Users\hjh\Documents\UNIVERSIDAD\9o Cuatri\web\Remedial_Pr2\Remedial_2\ClassEntidades\bin\Debug\ClassEntidades.pdb
+C:\Users\hjh\Documents\UNIVERSIDAD\9o Cuatri\web\Remedial_Pr2\Remedial_2\ClassEntidades\obj\Debug\ClassEntidades.csproj.CoreCompileInputs.cache
+C:\Users\hjh\Documents\UNIVERSIDAD\9o Cuatri\web\Remedial_Pr2\Remedial_2\ClassEntidades\obj\Debug\ClassEntidades.dll
+C:\Users\hjh\Documents\UNIVERSIDAD\9o Cuatri\web\Remedial_Pr2\Remedial_2\ClassEntidades\obj\Debug\ClassEntidades.pdb
+C:\Users\hjh\Documents\UNIVERSIDAD\9o Cuatri\web\Remedial_Pr2\Remedial_2\ClassEntidades\obj\Debug\ClassEntidades.csprojAssemblyReference.cache
