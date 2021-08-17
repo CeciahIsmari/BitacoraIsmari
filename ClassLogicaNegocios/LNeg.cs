@@ -199,7 +199,7 @@ namespace ClassLogicaNegocios
                 {
                     listaGrEsp.Add(new GradoEspecialidad
                     {
-                        id_Grado = (byte)datos[0],
+                        id_Grado = (short)datos[0],
                         Titulo = (string)datos[1]
                     }
                     );
@@ -234,7 +234,7 @@ namespace ClassLogicaNegocios
                 {
                     listaGrEsp.Add(new Materia
                     {
-                        id_Mat = (byte)datos[0],
+                        id_Mat = (short)datos[0],
                         NomMat = (string)datos[1]
                     }
                     );
@@ -269,7 +269,7 @@ namespace ClassLogicaNegocios
                 {
                     listaProfp.Add(new Profesor
                     {
-                        id_Profe = (byte)datos[0],
+                        id_Profe = (short)datos[0],
                         Nombre = (string)datos[1],
                         App = (string)datos[2],
                         Apm = (string)datos[3]
