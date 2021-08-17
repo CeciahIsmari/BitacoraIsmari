@@ -47,6 +47,7 @@
         <div style="margin-left:400px;">
             <asp:Button ID="btnRegis" runat="server" Text="Registrar" class="btn btn-primary" OnClick="btnRegis_Click" />
             <asp:TextBox ID="txtIdGruCua" runat="server" Visible="False"></asp:TextBox>
+            <asp:Button ID="btnEdi" runat="server" Text="Editar" class="btn btn-primary" OnClick="btnEdi_Click"/>
         </div>
     </form>
 </body>
