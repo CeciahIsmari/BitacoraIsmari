@@ -18,7 +18,7 @@ namespace InfoProfesores
             {
                 LN = new LNeg();
                 Session["LN"] = LN;
-                txtIdPP.Text = (string)Session["regE"];
+                txtIdPP.Text = (string)Session["IdPP"];
                 List<Profesor> prof = null;
                 string msj = "";
 
