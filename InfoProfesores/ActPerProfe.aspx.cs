@@ -9,7 +9,7 @@ using ClassLogicaNegocios;
 
 namespace InfoProfesores
 {
-    public partial class InsertPerProf : System.Web.UI.Page
+    public partial class ActPerProfe : System.Web.UI.Page
     {
         LNeg LN = null;
         protected void Page_Load(object sender, EventArgs e)
@@ -18,7 +18,7 @@ namespace InfoProfesores
             {
                 LN = new LNeg();
                 Session["LN"] = LN;
-
+                txtIdPP.Text = (string)Session["regE"];
                 List<Profesor> prof = null;
                 string msj = "";
 
@@ -33,14 +33,14 @@ namespace InfoProfesores
                 }
 
                 List<GradoEspecialidad> GEsp = null;
-                
+
                 GEsp = LN.DevuelveGradEsp(ref msj);
                 if (prof != null)
                 {
                     ddlProfe.Items.Clear();
                     foreach (GradoEspecialidad ge in GEsp)
                     {
-                        ddlProfe.Items.Add(new ListItem(ge.Titulo,ge.id_Grado.ToString()));
+                        ddlProfe.Items.Add(new ListItem(ge.Titulo, ge.id_Grado.ToString()));
                     }
                 }
             }
@@ -52,21 +52,14 @@ namespace InfoProfesores
 
         protected void btnReg_Click(object sender, EventArgs e)
         {
-            if (txtEst.Text !="" && txtEvidencia.Text !="")
+            if (txtEst.Text != "" && txtEvidencia.Text != "")
             {
-                PerfilProfe newPerProf = new PerfilProfe()
-                {
-                    F_Profe = Convert.ToByte(ddlProfe.SelectedValue),
-                    F_Grado = Convert.ToByte(ddlGrEs.SelectedValue),
-                    Estado = txtEst.Text,
-                    FechaObtencion = Calendar1.SelectedDate,
-                    Evidencia = txtEvidencia.Text
-                };
-
+               
                 string msj = "";
-                LN.InsertarPerProfe(newPerProf, ref msj);
+                LN.EditarPerfProf(Convert.ToInt16(ddlProfe.SelectedValue), Convert.ToInt16(ddlGrEs.SelectedValue), txtEst.Text,Calendar1.SelectedDate,txtEvidencia.Text,Convert.ToInt16(txtIdPP.Text), ref msj);
 
                 Page.ClientScript.RegisterStartupScript(this.GetType(), "msg1", "msbox('¡Registrado!','" + msj + "','success')", true);
+                Response.Redirect("VistaPerfilProf.aspx");
             }
             else
             {
