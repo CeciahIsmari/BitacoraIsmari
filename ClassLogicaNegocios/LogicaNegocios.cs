@@ -191,6 +191,36 @@ namespace ClassLogicaNegocios
             return salida;
         }
 
+        //-----------------Actualizar---------------------------------
+        public string EditarGradEsp(string titu, string insti, string pais, string extra, int id, ref string msjSalida)
+        {
+            string sentenciaSql = "update GradoEspecialidad set  Titulo='" + titu + "', Institucion='" + insti + "'," +
+             " Pais='" + pais + "', Extra='"+ extra + "'where Id_Grado ='" + id + "'";
+
+            SqlDataReader salida = null;
+            salida = ccbd.ConsultaReader(sentenciaSql, ccbd.AbrirConexion(ref msjSalida), ref msjSalida);
+
+            return salida.ToString();
+        }
+
+        //-----------------Eliminar---------------------------------
+        public string EliminarGradEspf(int id, ref string mensajeSalida)
+        {
+            SqlParameter[] parametros = new SqlParameter[1];
+            parametros[0] = new SqlParameter
+            {
+                ParameterName = "RegistroEmpleado",
+                SqlDbType = SqlDbType.Int,
+                Direction = ParameterDirection.Input,
+                Value = id
+            };
+
+            string sentencia = "delete from GradoEspecialidad where Id_Grado='" + id + "'";
+
+            ccbd.ModificaBDMasSegura(sentencia, ccbd.AbrirConexion(ref mensajeSalida), ref mensajeSalida, parametros);
+            return mensajeSalida;
+        }
+
         //========================------EXTRAS----------===============================//
         //-----------------Devuelve EstadoCivil---------------------------------
         public List<EstadoCivil> DevuelveEstadoCivil(ref string msj)
@@ -273,6 +303,22 @@ namespace ClassLogicaNegocios
         public DataTable DtTablas(ref string mens_salida)
         {
             string query2 = "select RegistroEmpleado, Nombre, Ap_pat,Ap_Mat,Genero,Categoria,Correo, ec.Estado from Profesor as p inner join EstadoCivil as ec on  ec.Id_Edo=p.F_EdoCivil";
+
+            DataSet DtTab = null;
+            DataTable M_tab = null;
+
+            DtTab = ccbd.ConsultaDS(query2, ccbd.AbrirConexion(ref mens_salida), ref mens_salida);
+
+            if (DtTab != null)
+            {
+                M_tab = DtTab.Tables[0];
+            }
+            return M_tab;
+        }
+
+        public DataTable DtTablaGE(ref string mens_salida)
+        {
+            string query2 = "select Id_Grado, Titulo, Institucion,Pais,Extra from GradoEspecialidad";
 
             DataSet DtTab = null;
             DataTable M_tab = null;

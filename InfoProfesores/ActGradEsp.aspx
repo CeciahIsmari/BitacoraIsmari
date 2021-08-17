@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="InsertGradEsp.aspx.cs" Inherits="InfoProfesores.InsertGradEsp" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ActGradEsp.aspx.cs" Inherits="InfoProfesores.ActGradEsp" %>
 
 <!DOCTYPE html>
 
@@ -34,8 +34,8 @@
         <div style="margin-left:400px;">
         <div class="row">
         <div class="col">
-           <asp:Button ID="btnReg" runat="server" Text="Registrar" class="btn btn-primary" Click="btnRegi_Click" OnClick="btnRegi_Click" />
-           <asp:Button ID="btnEdi" runat="server" Text="Editar datos" class="btn btn-primary" OnClick="btnEdi_Click" />
+           <asp:Button ID="btnAct" runat="server" Text="Actualizar" class="btn btn-primary" OnClick="btnAct_Click"/>
+            <asp:TextBox ID="txtId" runat="server" Visible="False"></asp:TextBox>
         </div>
         </div>
         </div>

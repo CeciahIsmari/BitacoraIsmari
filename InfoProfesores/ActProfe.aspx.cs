@@ -47,7 +47,7 @@ namespace InfoProfesores
                 string msj = "";
                 LN.EditarProf(txtNombre.Text,txtApp.Text,txtApm.Text,ddlGen.SelectedValue,txtCat.Text,txtCorreo.Text,txtCel.Text,Convert.ToInt16(ddlEdoCivil.SelectedValue),Convert.ToInt16(txtregEmp.Text), ref msj);
 
-                Page.ClientScript.RegisterStartupScript(this.GetType(), "msg1", "msbox('¡Profesor Registrado!','" + msj + "','success')", true);
+                Page.ClientScript.RegisterStartupScript(this.GetType(), "msg1", "msbox('¡Atualizado!','" + msj + "','success')", true);
 
                 Response.Redirect("VistaProfe.aspx");
             }

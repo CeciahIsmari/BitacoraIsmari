@@ -10,7 +10,7 @@
 namespace InfoProfesores {
     
     
-    public partial class InsertGradEsp {
+    public partial class ActGradEsp {
         
         /// <summary>
         /// Control form1.
@@ -94,21 +94,21 @@ namespace InfoProfesores {
         protected global::System.Web.UI.WebControls.TextBox txtExt;
         
         /// <summary>
-        /// Control btnReg.
+        /// Control btnAct.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnReg;
+        protected global::System.Web.UI.WebControls.Button btnAct;
         
         /// <summary>
-        /// Control btnEdi.
+        /// Control txtId.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnEdi;
+        protected global::System.Web.UI.WebControls.TextBox txtId;
     }
 }
