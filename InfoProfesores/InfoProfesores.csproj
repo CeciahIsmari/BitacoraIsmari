@@ -67,16 +67,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ActGradEsp.aspx" />
     <Content Include="ActProfe.aspx" />
     <Content Include="css\sweetalert2.min.css" />
     <Content Include="InsertGradEsp.aspx" />
+    <Content Include="InsertPerProf.aspx" />
     <Content Include="InsertProfe.aspx" />
     <Content Include="js\JavaScript.js" />
     <Content Include="js\sweetalert2.all.min.js" />
+    <Content Include="VistaGradoEsp.aspx" />
     <Content Include="VistaProfe.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActGradEsp.aspx.cs">
+      <DependentUpon>ActGradEsp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ActGradEsp.aspx.designer.cs">
+      <DependentUpon>ActGradEsp.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ActProfe.aspx.cs">
       <DependentUpon>ActProfe.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -91,6 +101,13 @@
     <Compile Include="InsertGradEsp.aspx.designer.cs">
       <DependentUpon>InsertGradEsp.aspx</DependentUpon>
     </Compile>
+    <Compile Include="InsertPerProf.aspx.cs">
+      <DependentUpon>InsertPerProf.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InsertPerProf.aspx.designer.cs">
+      <DependentUpon>InsertPerProf.aspx</DependentUpon>
+    </Compile>
     <Compile Include="InsertProfe.aspx.cs">
       <DependentUpon>InsertProfe.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -99,6 +116,13 @@
       <DependentUpon>InsertProfe.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VistaGradoEsp.aspx.cs">
+      <DependentUpon>VistaGradoEsp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VistaGradoEsp.aspx.designer.cs">
+      <DependentUpon>VistaGradoEsp.aspx</DependentUpon>
+    </Compile>
     <Compile Include="VistaProfe.aspx.cs">
       <DependentUpon>VistaProfe.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
