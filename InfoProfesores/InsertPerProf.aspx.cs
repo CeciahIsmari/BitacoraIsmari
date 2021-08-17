@@ -37,10 +37,10 @@ namespace InfoProfesores
                 GEsp = LN.DevuelveGradEsp(ref msj);
                 if (prof != null)
                 {
-                    ddlProfe.Items.Clear();
+                    ddlGrEs.Items.Clear();
                     foreach (GradoEspecialidad ge in GEsp)
                     {
-                        ddlProfe.Items.Add(new ListItem(ge.Titulo,ge.id_Grado.ToString()));
+                        ddlGrEs.Items.Add(new ListItem(ge.Titulo,ge.id_Grado.ToString()));
                     }
                 }
             }
