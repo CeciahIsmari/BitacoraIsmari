@@ -39,10 +39,10 @@ namespace InfoProfesores
                 mats = LN.DevuelveMat(ref msj);
                 if (mats != null)
                 {
-                    ddlProf.Items.Clear();
+                    ddlMate.Items.Clear();
                     foreach (Materia ec in mats)
                     {
-                        ddlProf.Items.Add(new ListItem(ec.NomMat, ec.id_Mat.ToString()));
+                        ddlMate.Items.Add(new ListItem(ec.NomMat, ec.id_Mat.ToString()));
                     }
                 }
 
