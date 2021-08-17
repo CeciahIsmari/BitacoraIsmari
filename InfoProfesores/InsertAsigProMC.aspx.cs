@@ -83,5 +83,11 @@ namespace InfoProfesores
                 Page.ClientScript.RegisterStartupScript(this.GetType(), "msg2", "msbox('¡UPS!','Inserte todos los datos','error')", true);
             }
         }
+        
+        protected void btnEdi_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("VistaAPMC.aspx");
+        }
+
     }
 }
